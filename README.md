@@ -18,4 +18,6 @@ In addition, the 'data' directory contains the following subdirectories (listed 
 1. **base_maps**: Contains the Tropical Asia and Indomalaya maps (shapefile) used as base maps for plotting purposes.
 2. **ecostructure_model_fits**: Contains all 19 model fit results (K = 2 to 20) from Ecostructure in RDS format.
 3. **hclust**: Contains tables (.xlsx) detailing the cophenetic correlation coefficients calculated for algorithm selection, as well as the silhouette widths and matrix correlation values for selecting optimal number(s) of clusters; also contains image files (.png) showing the fusion level, silhouette widths, and matrix correlation values for selecting optimal clusters (based on guidelines in [Borcard et al., 2018](https://doi.org/10.1007/978-3-319-71404-2_4)).
+4. **input_files**: _.dat_ files are input files specific for NDM analyses at four spatial resolutions; _matrix_1.csv_ is a modified (reformatted) 1° presence-absence matrix that can be used as the input file for Ecostructure and hierarchical clustering.
+5. **ndm_output**: _.out_ files are the output exported from the NDM GUI containing information about the 2% consensus areas (and the endemic species that support their delineation) found by NDM at each of the four spatial resolutions; _NDMconsensus.xlsx_ summarizes the information in the _.out_ files into one document. 
 
