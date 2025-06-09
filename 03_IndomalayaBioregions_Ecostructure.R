@@ -40,7 +40,7 @@ library(ecostructure)
 
 # help(package = "ecostructure") # for comprehensive list of functions
 
-################ 02 Ecostructure modal fitting ################
+################ 02 Ecostructure model fitting ################
 # Load letsR presence-absence matrix 
 matrix_1 <- as.data.frame(PAM_60_1$P) # This object was created in "Part 1" using letsR
 View(matrix_1)
