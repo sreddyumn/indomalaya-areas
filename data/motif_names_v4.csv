@@ -1,0 +1,190 @@
+﻿dt_set,motif,motif_name,full_name,graph_index,OLDgraph_index
+K3,motif_2,SSA,South and Southeast Asia,index_2,index_2
+K3,motif_3,SUN,Sundaland,index_3,index_3
+K4,motif_2,IND,Indian Subcontinent,index_2,index_2
+K4,motif_3,MLD,Mainland Southeast Asia,index_3,index_3
+K4,motif_4,SUN,Sundaland,index_4,index_4
+K5,motif_2,IND,Indian Subcontinent,index_2,index_2
+K5,motif_3,MLD,Mainland Southeast Asia,index_3,index_3
+K5,motif_4,SUN,Sundaland,index_4,index_4
+K5,motif_5,PHI,Philippines,index_5,index_5
+K6,motif_2,IND,Indian Subcontinent,index_2,index_2
+K6,motif_3,MLD,Mainland Southeast Asia,index_3,index_3
+K6,motif_4,SEC,SE China,index_4,index_4
+K6,motif_5,SUN,Sundaland,index_5,index_5
+K6,motif_6,PHI,Philippines,index_6,index_6
+K7,motif_2,IND,Indian Subcontinent,index_2,index_2
+K7,motif_3,SUN,Sundaland,index_6,index_5
+K7,motif_4,SEC,SE China,index_5,index_3
+K7,motif_5,MLD,Mainland Southeast Asia,index_4,index_4
+K7,motif_6,HNI,Himalayas-Northeast India/Myanmar,index_3,index_6
+K7,motif_7,PHI,Philippines,index_7,index_7
+K8,motif_2,IND,Indian Subcontinent,index_2,index_2
+K8,motif_3,SEC,SE China,index_5,index_3
+K8,motif_4,MLD,Mainland Southeast Asia,index_4,index_4
+K8,motif_5,MSJ,Malay Peninsula/Sumatra/Java,index_6,index_5
+K8,motif_6,BOR,Borneo,index_7,index_6
+K8,motif_7,HNI,Himalayas-Northeast India/Myanmar,index_3,index_8
+K8,motif_8,PHI,Philippines,index_8,index_7
+K9,motif_2,IND,Indian Subcontinent,index_2,index_2
+K9,motif_3,SEC,SE China,index_6,index_3
+K9,motif_4,SUN,Sundaland,index_7,index_7
+K9,motif_5,MLN,Mainland Southeast Asia (north),index_4,index_6
+K9,motif_6,MLS,Mainland Southeast Asia (south),index_5,index_5
+K9,motif_7,PHI,Philippines,index_9,index_4
+K9,motif_8,JAV,Java,index_8,index_8
+K9,motif_9,HNI,Himalayas-Northeast India/Myanmar,index_3,index_9
+K10,motif_2,SEC,SE China,index_6,index_2
+K10,motif_3,IDS,S Indian Subcontinent,index_2,index_4
+K10,motif_4,IDN,N Indian Subcontinent,index_3,index_3
+K10,motif_5,SUN,Sundaland,index_7,index_7
+K10,motif_6,MLD,Mainland Southeast Asia,index_5,index_6
+K10,motif_7,HNI,Himalayas-Northeast India/Myanmar,index_4,index_5
+K10,motif_8,PHI,Philippines,index_10,index_8
+K10,motif_9,JAV,Java,index_9,index_9
+K10,motif_10,BOM,Borneo Mountains,index_8,index_10
+K11,motif_2,CIN,Central India,index_2,index_3
+K11,motif_3,SUN,Sundaland,index_8,index_2
+K11,motif_4,MLD,Mainland Southeast Asia,index_6,index_7
+K11,motif_5,SEC,SE China,index_7,index_6
+K11,motif_6,EWG,Eastern and Western Ghats,index_3,index_4
+K11,motif_7,PLW,"Palawan, Wallacea, etc.",index_10,index_5
+K11,motif_8,PHI,Philippines,index_11,index_9
+K11,motif_9,WHY,West Himalayas/Yungui Plateau,index_5,index_8
+K11,motif_10,EHM,East Himalayas,index_4,index_10
+K11,motif_11,JAV,Java,index_9,index_11
+K12,motif_2,IND,Indian Subcontinent,index_2,index_2
+K12,motif_3,SEC,SE China,index_7,index_5
+K12,motif_4,PLW,"Palawan, Wallacea, etc.",index_11,index_3
+K12,motif_5,MLN,Mainland Southeast Asia (north),index_5,index_9
+K12,motif_6,BOR,Borneo,index_9,index_8
+K12,motif_7,MLS,Mainland Southeast Asia (south),index_6,index_7
+K12,motif_8,MPS,Malay Peninsula/Sumatra,index_8,index_6
+K12,motif_9,HNI,Himalayas-Northeast India/Myanmar,index_4,index_10
+K12,motif_10,PHI,Philippines,index_12,index_4
+K12,motif_11,JAV,Java,index_10,index_12
+K12,motif_12,MSC,"Miscellaneous (Sri Lanka, Palawan, Mindanao)",index_3,index_11
+K13,motif_2,IND,Indian Subcontinent,index_2,index_2
+K13,motif_3,PLW,"Palawan, Wallacea, etc.",index_12,index_5
+K13,motif_4,MLS,Mainland Southeast Asia (south),index_6,index_3
+K13,motif_5,YGP,Yunnan-Guizhou Plateau,index_8,index_9
+K13,motif_6,MLN,Mainland Southeast Asia (north),index_5,index_8
+K13,motif_7,MPS,Malay Peninsula/Sumatra,index_9,index_7
+K13,motif_8,SEC,SE China,index_7,index_6
+K13,motif_9,BOR,Borneo,index_10,index_10
+K13,motif_10,HNI,Himalayas-Northeast India/Myanmar,index_4,index_11
+K13,motif_11,PHI,Philippines,index_13,index_12
+K13,motif_12,BEN,Bengal,index_3,index_4
+K13,motif_13,JAV,Java,index_11,index_13
+K14,motif_2,IND,Indian Subcontinent,index_2,index_3
+K14,motif_3,SCN,N SE China,index_9,index_2
+K14,motif_4,SCS,S SE China,index_8,index_4
+K14,motif_5,PAK,Pakistan/NW India,index_3,index_8
+K14,motif_6,MLS,Mainland Southeast Asia (south),index_7,index_5
+K14,motif_7,PLW,"Palawan, Wallacea, etc.",index_13,index_7
+K14,motif_8,MPS,Malay Peninsula/Sumatra,index_10,index_11
+K14,motif_9,BOR,Borneo,index_11,index_9
+K14,motif_10,MLN,Mainland Southeast Asia (north),index_5,index_6
+K14,motif_11,PHI,Philippines,index_14,index_12
+K14,motif_12,RRV,Red River,index_6,index_10
+K14,motif_13,HNI,Himalayas-Northeast India/Myanmar,index_4,index_13
+K14,motif_14,JAV,Java,index_12,index_14
+K15,motif_2,IND,Indian Subcontinent,index_2,index_2
+K15,motif_3,SCN,N SE China,index_10,index_5
+K15,motif_4,PLW,"Palawan, Wallacea, etc.",index_14,index_9
+K15,motif_5,PAK,Pakistan/NW India,index_3,index_8
+K15,motif_6,MPS,Malay Peninsula/Sumatra,index_11,index_11
+K15,motif_7,SCS,S SE China,index_9,index_6
+K15,motif_8,MLS,Mainland Southeast Asia (south),index_7,index_4
+K15,motif_9,MLN,Mainland Southeast Asia (north),index_6,index_14
+K15,motif_10,BOR,Borneo,index_12,index_7
+K15,motif_11,NEI,NE India/Myanmar,index_5,index_13
+K15,motif_12,PHI,Philippines,index_15,index_3
+K15,motif_13,YGP,Yunnan-Guizhou Plateau,index_8,index_10
+K15,motif_14,HIM,Himalayas,index_4,index_12
+K15,motif_15,JAV,Java,index_13,index_15
+K16,motif_2,SEC,SE China,index_10,index_2
+K16,motif_3,IDN,N Indian Subcontinent,index_2,index_3
+K16,motif_4,IDS,S Indian Subcontinent,index_3,index_6
+K16,motif_5,BOR,Borneo,index_13,index_10
+K16,motif_6,MLN,Mainland Southeast Asia (north),index_6,index_11
+K16,motif_7,MPS,Malay Peninsula/Sumatra,index_11,index_8
+K16,motif_8,PLW,"Palawan, Wallacea, etc.",index_15,index_13
+K16,motif_9,MLS,Mainland Southeast Asia (south),index_8,index_7
+K16,motif_10,PHI,Philippines,index_16,index_4
+K16,motif_11,NTP,Northern Thai-Malay Peninsula,index_7,index_9
+K16,motif_12,HIM,Himalayas,index_4,index_15
+K16,motif_13,QTP,Qinghai-Tibetan Plateau,index_5,index_16
+K16,motif_14,IRR,Irrawaddy,index_9,index_5
+K16,motif_15,JAV,Java,index_14,index_12
+K16,motif_16,MSC,"Miscellaneous (NE India, Sri Lanka, Palawan)",index_12,index_14
+K17,motif_2,IND,Indian Subcontinent,index_2,index_2
+K17,motif_3,SCN,N SE China,index_9,index_3
+K17,motif_4,MLS,Mainland Southeast Asia (south),index_8,index_7
+K17,motif_5,SCS,S SE China,index_10,index_11
+K17,motif_6,MLN,Mainland Southeast Asia (north),index_6,index_9
+K17,motif_7,BOR,Borneo,index_14,index_4
+K17,motif_8,PAK,Pakistan/NW India,index_3,index_5
+K17,motif_9,PLW,"Palawan, Wallacea, etc.",index_16,index_13
+K17,motif_10,MPS,Malay Peninsula/Sumatra,index_12,index_8
+K17,motif_11,PHI,Philippines,index_17,index_14
+K17,motif_12,ABG,"Andaman-Nicobar, Bengal, small Greater Sunda islands, etc.",index_13,index_10
+K17,motif_13,QTP,Qinghai-Tibetan Plateau,index_5,index_15
+K17,motif_14,HIM,Himalayas,index_4,index_16
+K17,motif_15,SUM,Sumatran Highlands,index_11,index_12
+K17,motif_16,JAV,Java,index_15,index_17
+K17,motif_17,MSC,"Miscellaneous (Western Ghats, Sri Lanka, Taiwan, Luzon)",index_7,index_6
+K18,motif_2,IND,Indian Subcontinent,index_2,index_4
+K18,motif_3,SCN,N SE China,index_10,index_2
+K18,motif_4,SCS,S SE China,index_11,index_11
+K18,motif_5,PAK,Pakistan/NW India,index_3,index_3
+K18,motif_6,BOR,Borneo,index_15,index_8
+K18,motif_7,NEI,NE India/Myanmar,index_6,index_7
+K18,motif_8,MLS,Mainland Southeast Asia (south),index_8,index_12
+K18,motif_9,MLN,Mainland Southeast Asia (north),index_7,index_10
+K18,motif_10,PHI,Philippines,index_18,index_9
+K18,motif_11,MPS,Malay Peninsula/Sumatra,index_12,index_14
+K18,motif_12,PLW,"Palawan, Wallacea, etc.",index_17,index_5
+K18,motif_13,SML,Sumatran Lowlands,index_13,index_15
+K18,motif_14,HIM,Himalayas,index_5,index_16
+K18,motif_15,JAV,Java,index_16,index_18
+K18,motif_16,BEN,Bengal,index_9,index_13
+K18,motif_17,HAI,Hainan,index_4,index_6
+K18,motif_18,MSC,"Miscellaneous (Sri Lanka, Irrawady, Philippines)",index_14,index_17
+K19,motif_2,IND,Indian Subcontinent,index_2,index_2
+K19,motif_3,SEC,SE China,index_12,index_3
+K19,motif_4,PLW,"Palawan, Wallacea, etc.",index_18,index_13
+K19,motif_5,PAK,Pakistan/NW India,index_4,index_7
+K19,motif_6,BOR,Borneo,index_16,index_6
+K19,motif_7,EWG,Eastern and Western Ghats,index_3,index_12
+K19,motif_8,NEI,NE India/Myanmar,index_7,index_8
+K19,motif_9,PHI,Philippines,index_19,index_4
+K19,motif_10,MLN,Mainland Southeast Asia (north),index_9,index_17
+K19,motif_11,MLS,Mainland Southeast Asia (south),index_10,index_16
+K19,motif_12,MPS,Malay Peninsula/Sumatra,index_14,index_9
+K19,motif_13,QTP,Qinghai-Tibetan Plateau,index_5,index_18
+K19,motif_14,IRR,Irrawaddy,index_11,index_19
+K19,motif_15,SUM,Sumatran Highlands,index_13,index_10
+K19,motif_16,HIM,Himalayas,index_6,index_14
+K19,motif_17,JAV,Java,index_17,index_11
+K19,motif_18,YGP,Yunnan-Guizhou Plateau,index_8,index_15
+K19,motif_19,MSC,"Miscellaneous (Sri Lanka, Taiwan, Mindanao, Palawan)",index_15,index_5
+K20,motif_2,IND,Indian Subcontinent,index_2,index_2
+K20,motif_3,SCN,N SE China,index_11,index_13
+K20,motif_4,SCS,S SE China,index_12,index_3
+K20,motif_5,PAK,Pakistan/NW India,index_4,index_4
+K20,motif_6,EWG,Eastern and Western Ghats,index_3,index_7
+K20,motif_7,BOR,Borneo,index_16,index_10
+K20,motif_8,MLS,Mainland Southeast Asia (south),index_9,index_14
+K20,motif_9,MLN,Mainland Southeast Asia (north),index_8,index_9
+K20,motif_10,PLW,"Palawan, Wallacea, etc.",index_18,index_12
+K20,motif_11,MPS,Malay Peninsula/Sumatra,index_13,index_8
+K20,motif_12,DEL,"Deltas (Ganges, Irrawaddy, Mekong)",index_10,index_6
+K20,motif_13,HNI,Himalayas-Northeast India/Myanmar,index_7,index_19
+K20,motif_14,MIN,Mindanao Island Complex,index_19,index_18
+K20,motif_15,QTP,Qinghai-Tibetan Plateau,index_5,index_17
+K20,motif_16,JAV,Java,index_17,index_15
+K20,motif_17,LUZ,Luzon Complex,index_20,index_20
+K20,motif_18,MSI,Maritime SEA Islands,index_15,index_16
+K20,motif_19,TMP,Thai-Malay Peninsula,index_14,index_11
+K20,motif_20,MSC,"Miscellaneous (Sri Lanka, Truong Son, NE Borneo, Taiwan, etc.)",index_6,index_5
