@@ -1,5 +1,5 @@
 # indomalaya-areas
-This repository contains a compilation of code, data, and visualizations associated with the paper "Biogeographic regions within Indomalaya: an integrated approach using bird distributions."
+This repository contains a compilation of code, data, and visualizations associated with the paper "Biogeographic regions within Indomalaya: an integrated approach using bird distributions."  
 Authors: Zheng Oong, Sharon A. Jansa, Sushma Reddy
 
 ## R scripts ##
