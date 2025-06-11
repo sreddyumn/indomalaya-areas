@@ -69,7 +69,7 @@ plot(as(extent(im_map_simpl), "SpatialPolygons"), add=T)
 # }
 # sink()
 #
-# We obtained 2827 unique species, which we have provided in as "any_indomalaya.csv"
+# We obtained 2827 unique species, which we have provided as "any_indomalaya.csv"
 
 # These three large geodatabases can be split into individual shapefiles based on species names (or "SCINAME").
 # We did this through the "Split By Attributes" function on ArcGIS, based on the field "SCINAME".
@@ -80,7 +80,7 @@ plot(as(extent(im_map_simpl), "SpatialPolygons"), add=T)
 
 
 ################ 03 Attributes Table ################
-# The attributes tables of the dataset can be exported from ArcGIS/QGIS into Excel.
+# The attributes tables of the dataset can be exported from ArcGIS/QGIS into Excel as "ALL_Attributes_raw.xlsx".
 # Interpretations of the code are available in the Metadata document provided by BirdLife. 
 
 # Since the geodatabase features were extracted in batches, so we combined all three spreadsheets into one,
@@ -250,7 +250,7 @@ dev.off()
 setwd(wd)
 
 ################ 08 Create a unique directory to house only the 1544 selected species ################
-# 60% is the final decision; these species will be the main study species for all downstream analyses
+# 60% is our decision; these species will be the main study species for all downstream analyses
 above60 <- percent_area$Species[which(percent_area$Area_Presence >= 0.60)]
 dir.60 <-"/Indomalaya_60percent"
 
@@ -279,7 +279,7 @@ checklist.60 <- checklist[which(checklist$Scientific_Name %in% (above60 %>% str_
 orderchecks <- c("PELECANIFORMES", "SULIFORMES", 'CHARADRIIFORMES', 'ANSERIFORMES')
 
 pdf("RangeMapPlots/pelagic_checks.pdf")
-setwd(path)
+setwd(dir.60)
 for(i in 1:nrow(to.check)){
   spnm <- to.check$Scientific_Name[i] %>% str_replace(" ","_")
   print(paste0("species number ",i, " : ", spnm)) # tracker
@@ -302,7 +302,7 @@ setwd(wd)
 
 ################ 10 Generate presence-absence matrix with letsR ################
 # 1 degree resolution
-PAM_60_1 <- lets.presab.birds(path, xmn = 65, xmx = 132, ymn = -12, ymx = 37,
+PAM_60_1 <- lets.presab.birds(dir.60, xmn = 65, xmx = 132, ymn = -12, ymx = 37,
                               resol = 1, crs = wgs84, crs.grid = wgs84, count = T)
 							  
 # Visualize richness raster in a map
@@ -315,15 +315,15 @@ plot(im_ecoreg_dissolved, border="blue", add=T)
 dev.off()
 
 # 0.5 (half) degree resolution
-PAM_60_half <- lets.presab.birds(path, xmn = 65, xmx = 132, ymn = -12, ymx = 37,
+PAM_60_half <- lets.presab.birds(dir.60, xmn = 65, xmx = 132, ymn = -12, ymx = 37,
                                  resol=0.5, crs=wgs84, crs.grid= wgs84, count=T)
 
 # 2 degree resolution
-PAM_60_2 <- lets.presab.birds(path, xmn = 65, xmx = 132, ymn = -12, ymx = 37,
+PAM_60_2 <- lets.presab.birds(dir.60, xmn = 65, xmx = 132, ymn = -12, ymx = 37,
                                  resol=2, crs=wgs84, crs.grid= wgs84, count=T)
 
 # 5 degree resolution
-PAM_60_5 <- lets.presab.birds(path, xmn = 65, xmx = 132, ymn = -12, ymx = 37,
+PAM_60_5 <- lets.presab.birds(dir.60, xmn = 65, xmx = 132, ymn = -12, ymx = 37,
                               resol=5, crs=wgs84, crs.grid= wgs84, count=T)
 
 
